@@ -17,6 +17,10 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+      heading: ['Poppins', 'sans-serif'],
+    },
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -51,6 +55,17 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				career: {
+					engineering: '#3b82f6',
+					medicine: '#10b981',
+					law: '#8b5cf6',
+					government: '#f59e0b',
+					architecture: '#ef4444', 
+					navy: '#1e40af',
+					electrical: '#6366f1',
+					arts: '#ec4899',
+					music: '#8b5cf6'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
